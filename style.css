@@ -9,6 +9,7 @@ html,body {
   margin:0 auto;
   max-width:360px;
   min-width:360px;
+  background-color:black;
 }
 .clear {
   clear: both;
