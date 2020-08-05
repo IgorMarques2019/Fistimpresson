@@ -11,166 +11,25 @@ html,body {
     clear: both;
 }
 
-
-#menu {
-    min-width:690px;
-    box-sizing: border-box;
-    background-color: rgb(25, 25, 25);
-    padding: 10px;
-    width:100%;
-    position:fixed;
-}
-
-#menu h1 {
-    float: left;
-    font-size:18px;
-    color: white;
-    
-}
-#menu h1:hover {
-    float: left;
-    color:#DBA287;
-    
-    
-}
-
-#menu ul {
-    list-style: none;
-    float:right;
-
-}
-
-#menu ul li {
-    display: inline-block;
-    margin:0px 5px;   
-}
-
-#menu ul li a {
-    text-decoration:none;
-    color: white;
-    letter-spacing: 2px;
-    font-size:14px;
-    padding:5px;
-    border-radius:3px;
-
-
-}
-#menu ul li:hover {
-    
-    transition: ease-in-out .2s;
-   
-}
-#menu ul li a:hover {
-    border: 1px solid white;
-}
-
 .content {
-    min-width:690px;
-    position: absolute;
     width:100%;
-    height:600px;
-    background-image: url(https://images5.alphacoders.com/594/594882.jpg);
-    background-position: center;
-    background-attachment: scroll;
-    background-size: cover;
+    background-color: tomato;
+    text-align: center;
+    padding:30px 0;
+
+}
+
+.itens {
+    box-sizing: border-box;
+    width:300px;
+    margin-right:-4px;
+    display: inline-block;
+    border:1px solid blue;
+    margin:20px 10px;
+    padding:20px;
+}
   
-    margin:0 auto;
-    box-sizing: border-box;
-    z-index:-1;
-    top:41px;
-}
-
-.content h1 {
-    text-align:left;
-    color: white;
-    font-size:60px;
-    text-shadow: 0px 1px 5px black;
-    position:absolute;
-    left:25%;
-    top:50%;
-    transition: ease-in-out .3s;
-}
-.people-relats {
-    box-sizing: border-box;
-    min-width:690px;
-    background-color: rgb(255, 255, 255);
-    z-index:-1;
-    position: absolute;
-    top:640px;
-    width:100%;
-    margin-bottom: 30px;
-    
-
-}
-.people-relats > p {
-    color:tomato;
-    text-align: center;
+.itens img {
+    width:100px;
     padding:20px;
-    font-size:20px;
-    
-    font-weight: normal;
-    
 }
-
-
-.peoples-section {
-    padding:20px;
-    box-sizing: border-box;
-    margin:0 auto;
-    height: auto;
-    width:690px;
-}
-
-.peoples {
-    box-sizing: border-box;
-    width:200px;
-    position: relative;
-    float: left;
-    background-color:white;
-    padding:20px;
-    border-bottom: 4px solid tomato;
-    border-top-left-radius:30px;
-    border-top-right-radius:30px;
-    box-shadow: 0px 0px 2px;
-    margin:0px 20px;
-    height:330px;
-    margin-right: -4px;
-}
-
-.peoples img{
- width:100%;
- border-radius:200px;
- border: 2px solid #C77C22;
-
- 
-
-}
-.peoples  p.name {
-    padding:20px;
-    text-align: center;
-    color:rgb(250, 86, 86);
-    font-size:18px;
-    font-weight: bold;
-    
-}
-
-.info-name {
-    color:black;
-    font-size: 14px;
-    font-style: italic;
-    text-align: center;
-}
-footer {
-    width:100%;
-    background-color: rgb(25, 25, 25);
-    padding:10px;
-    
-    font-size: 15px;
-    color: white;
-    text-align: center;
-    position: fixed;
-    bottom:0;
-}
-
-
-
