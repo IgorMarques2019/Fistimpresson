@@ -52,6 +52,7 @@
 }
 
 .land-text {
+    
     box-sizing: border-box;
     color: white;
     font-size: 36px;
@@ -102,3 +103,58 @@
 .anime-info h3, p {
     padding-top:10px;
 }
+
+
+
+form {
+  
+    text-align: center;
+    box-sizing: border-box;
+    width:89%;
+    margin:10px auto;
+    
+}
+form fieldset {
+    padding:10px 0;
+    border: 1px solid gray;
+}
+
+form fieldset legend {
+    padding:0 20px;
+font-size:18px;
+text-transform: uppercase;
+color:gray;
+
+}
+
+input {
+    margin:3px 0px;
+    width:80%;
+    padding:10px 13px;
+}
+
+select {
+    width:calc(80% + 30px);
+    padding:10px;
+    margin:10px 0px;
+}
+select:focus {
+    outline: none;
+}
+textarea {
+    height: 100px;
+    box-sizing: border-box;
+resize: none;
+   text-align:left;
+   padding:10px;
+    width:calc(80% + 30px);
+}
+input[type="submit"] {
+    background-color:#ccc;
+  width:150px;
+  color:rgb(65, 65, 65);
+    border:none;
+}
+
+
+
